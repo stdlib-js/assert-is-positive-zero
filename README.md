@@ -141,6 +141,23 @@ bool = isPositiveZero( null );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/assert/is-number`][@stdlib/assert/is-number]: test if a value is a number.
+-   [`@stdlib/assert/is-negative-zero`][@stdlib/assert/is-negative-zero]: test if a value is equal to negative zero.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -195,6 +212,14 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-authors]: https://github.com/stdlib-js/stdlib/graphs/contributors
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/assert-is-positive-zero/main/LICENSE
+
+<!-- <related-links> -->
+
+[@stdlib/assert/is-number]: https://github.com/stdlib-js/assert-is-number
+
+[@stdlib/assert/is-negative-zero]: https://github.com/stdlib-js/assert-is-negative-zero
+
+<!-- </related-links> -->
 
 </section>
 
