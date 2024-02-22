@@ -44,7 +44,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-isPositiveZero = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-positive-zero@umd/browser.js' )
+isPositiveZero = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-positive-zero@v0.2.1-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -56,7 +56,7 @@ var isPositiveZero = require( 'path/to/vendor/umd/assert-is-positive-zero/index.
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-positive-zero@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-positive-zero@v0.2.1-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -143,7 +143,7 @@ bool = isPositiveZero.isObject( new Number( 0.0 ) );
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/number-ctor@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-positive-zero@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-positive-zero@v0.2.1-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
