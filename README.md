@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isPositiveZero from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-positive-zero@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-positive-zero/tags). For example,
+
+```javascript
 import isPositiveZero from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-positive-zero@v0.2.2-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { isObject, isPrimitive } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-positive-zero@v0.2.2-deno/mod.js';
+import { isObject, isPrimitive } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-positive-zero@deno/mod.js';
 ```
 
 #### isPositiveZero( value )
@@ -122,7 +127,7 @@ bool = isPositiveZero.isObject( new Number( 0.0 ) );
 
 ```javascript
 import Number from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-ctor@deno/mod.js';
-import isPositiveZero from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-positive-zero@v0.2.2-deno/mod.js';
+import isPositiveZero from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-positive-zero@deno/mod.js';
 
 var bool = isPositiveZero( 0.0 );
 // returns true
